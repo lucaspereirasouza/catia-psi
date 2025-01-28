@@ -12,8 +12,13 @@ languages:
     contentDir: content/en
     title: Catia Shirlene Psicóloga
     params:
+      img_url_description: https://media.licdn.com/dms/image/v2/C5103AQGAPHS0hgoc-w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517242987412?e=1743638400&v=beta&t=b4obeFt877DHg8INv2i-vxo3jf2t6eslxgU_qSDu5rQ
       description: Psicologa e NeuroPsicologa; tratamento para pessoa com depressão, ansiedade, crise de panico e aquem procura auto-desenvolvimento.
-
+      introduction: Meu nome é Catia Shirlene Pereira de Souza, sou psicóloga formada com excelência e pós-graduada em Neuropsicologia. Minha missão é oferecer suporte emocional, orientar processos de autoconhecimento e promover o bem-estar mental por meio de abordagens baseadas em evidências científicas e personalizadas para cada indivíduo.
+      introduction_middle: Com uma sólida formação acadêmica e ampla experiência prática, dedico-me a compreender as necessidades únicas de cada cliente. Minha atuação é focada em proporcionar um espaço acolhedor e seguro, onde você pode explorar suas emoções, superar desafios e desenvolver habilidades para uma vida mais equilibrada e saudável.
+      introduction_finale: Seja para enfrentar questões do dia a dia, compreender aspectos do comportamento humano ou alcançar maior qualidade de vida, estou aqui para acompanhar você nessa jornada. Vamos juntos trilhar o caminho do autoconhecimento e da transformação. 
+      service:
+      contact:
 services:
   googleAnalytics:
     ID: G-XXXXXXXXXX
@@ -58,14 +63,16 @@ menu:
       pre: "<i class='icon icon-home'></i>"
       weight: 1
 
+    - url: /#Contato
+      name: contato
+      identifier: contato
+      pre: "<i class='icon icon-book'></i>"
+      weight: 2
+
     - url: /#Service
       name: Serviço
       identifier: serviço
       pre: "<i class='icon icon-book'></i>"
       weight: 2
 
-    - url: /#Contatp
-      name: contato
-      identifier: contato
-      pre: "<i class='icon icon-book'></i>"
-      weight: 2
+    

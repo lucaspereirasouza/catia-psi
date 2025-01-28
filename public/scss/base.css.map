@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "base.css",
-	"sourceRoot": "/home/lucaspsouza/git/catia-psi/quickstart",
+	"sourceRoot": "/home/lucaspsouza/git/catia-psi",
 	"sources": [
 		"themes/docura/assets/scss/base.scss",
 		"themes/docura/assets/scss/reset.scss",
