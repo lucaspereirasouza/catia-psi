@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "default.css",
-	"sourceRoot": "/home/lucaspsouza/git/catia-psi",
+	"sourceRoot": "/home/lucaspsouza/git/catia-psi/quickstart",
 	"sources": [
 		"themes/docura/assets/scss/theme/default.scss",
 		"themes/docura/assets/scss/font/inter.scss",
