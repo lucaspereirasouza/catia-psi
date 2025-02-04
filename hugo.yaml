@@ -63,16 +63,18 @@ menu:
       pre: "<i class='icon icon-home'></i>"
       weight: 1
 
-    - url: /#Contato
-      name: contato
-      identifier: contato
-      pre: "<i class='icon icon-book'></i>"
-      weight: 2
-
-    - url: /#Service
+    - url: /#service
       name: Serviço
       identifier: serviço
       pre: "<i class='icon icon-book'></i>"
       weight: 2
+
+    - url: /#contact
+      name: contato
+      identifier: contato
+      pre: "<i class='icon icon-book'></i>"
+      weight: 3
+
+   
 
     
