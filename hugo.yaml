@@ -10,7 +10,7 @@ languages:
     languageName: Portuguese
     languageCode: pt-br
     contentDir: content/en
-    title: Cátia
+    title: Cátia Shirlene psicologa
     params:
       img_url_description: https://media.licdn.com/dms/image/v2/C5103AQGAPHS0hgoc-w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517242987412?e=1743638400&v=beta&t=b4obeFt877DHg8INv2i-vxo3jf2t6eslxgU_qSDu5rQ
       description: Atendimento especializado em depressão, ansiedade, crises de pânico e auto-desenvolvimento.
