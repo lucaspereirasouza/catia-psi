@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ilumine o Seu Dia a Dia </title>
+
+    
+
+	<meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="icon" href="../IMAGENS/favicon.ico">
+
+
+<style>
+	body{background-color: #f2f2f2;
+} 
+
+	.sombra{box-shadow: 5px 5px 30px #504e4e;}
+
+	.rodapeStyle{
+		background-color: #000000;
+		text-align: center;
+		padding-top: 10px;
+		font-size: 1.1em ;
+		color: rgb(229, 235, 235);
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	.corLink{
+		color:rgb(215, 35, 35);
+	}
+
+	h1{
+		text-align: center;
+	}
+
+
+	.tamanhoRodape{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.caixaRodape{
+    background-color: #2a303a;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 13px;
+    color: #fff;
+    font-family: 'Microsoft Yi Baiti','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 1.0em;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 2%;
+}
+	/*arredondar borda das imagens*/
+	/* .borda{
+	    border-radius:20px;		
+	}  */
+	
+	
+/* CRIEI UMA CLASSE E DEI O NOME DE  ZOOM, ELA TERÁ O EFEITO DE
+AUMENTAR A IMAGEM AO PASSAR O MOSUE  */
+
+.ZOOM {
+	transition: all 0.3s ease-in-out;
+	/* TRANSITION é o tempo que a transição terá */
+  }
+  
+  .ZOOM:hover { /*hover é ao passar o mouse*/
+	transform: scale(1.1); 	/* scale será o aumento da escla da imagem */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 	/* sombra na caixa ao passar o mouse */
+  }
+
+	
+
+</style>
+
+  </head>
+  <body>
+	
+
+    <div class="--container-fluid sombra"> <!--container-fluid se eu quiser a tela inteira-->
+		<!--crie uma classe sombra está no css interno acima-->
+	
+	
+<!--MENU-->
+<div class="row" style="background-color: #2a303a; padding-left:1%; caixaRodape">
+	<div class="col-md-1">
+		<img src="IMAGENS/logo.png" width="90%">
+		
+		
+	
+	</div>
+
+	
+
+
+
+<div class="col-md-10"> 
+	<ul class="nav nav-tabs">
+		<li class="nav-item">
+		  <a class="nav-link" style="color: #ffffff;"     href="index.html">INÍCIO</a>
+		</li>
+	
+		<li class="nav-item">
+		  <a class="nav-link active"  style="color: #020202;"  href="cardapio.html">CARDÁPIO</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" style="color: #ffffff;"  href="#">QUEM SOMOS</a>
+		</li>
+	  </ul>
+</div>
+</div>
+<!--MENU TERMINA AQUI-->
+
+
+
+
+
+
+
+<!--THUMBNAILS-->
+<br>
+
+<div><h1> Cardápio</h1></div>
+<br>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="row">
+			<div class="col-md-3"> 
+				<div class="card  borda ZOOM">  <!--criei uma classe chamada borda para arredondar as bordas do thumb-->
+					
+					<img class="card-img-top" alt="Bootstrap Thumbnail First" src="IMAGENS/temaki.jfif">
+
+					<div class="card-block">
+						<h5 class="card-title">
+							TEMAKI
+						</h5>
+						<p class="card-text">
+							Recheado com arroz, peixes, frutos do mar e outros ingredientes frescos, ideal para quem busca sabor e praticidade.
+							
+						</p>
+
+						<p class="card-text" style="text-align: center;font-size: 1.8em;font-weight:bolder">
+							R$ 80,00
+						</p>
+
+						<!--BOTÃO COLORIDO COPIADO DO BOOTSTRAP BRASIL-->
+						<a button type="button" class="btn btn-success" href="#">Veja mais... </a> </button> </a>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card borda ZOOM">
+					<img class="card-img-top" alt="Bootstrap Thumbnail Second" src="IMAGENS/sushi.jpg">
+					<div class="card-block">
+						<h5 class="card-title">
+							SUSHI
+						</h5>
+						<p class="card-text">
+							Delicioso sushi artesanal, preparado com ingredientes frescos e de alta qualidade, para uma experiência gastronômica única.
+						</p>
+
+						<p class="card-text" style="text-align: center;font-size: 1.8em;font-weight:bolder">
+							R$ 95,00
+						</p>
+
+						<!--BOTÃO COLORIDO COPIADO DO BOOTSTRAP BRASIL-->
+						<a button type="button" class="btn btn-success" href="#">Veja mais... </a> </button> </a>
+						
+					</div>
+				</div>
+
+				
+			</div>
+			<div class="col-md-3">
+				<div class="card borda ZOOM">
+					<img class="card-img-top" alt="Bootstrap Thumbnail Third" src="IMAGENS/sashimi.jfif">
+					<div class="card-block">
+						<h5 class="card-title">
+							SASHIMI
+						</h5>
+						<p class="card-text">
+							Sashimi fresco e delicado, cortado com perfeição para realçar o sabor puro dos peixes mais nobres da região
+						</p>
+						<p class="card-text" style="text-align: center;font-size: 1.8em;font-weight:bolder">
+							R$ 78,00
+						</p>
+						<!--BOTÃO COLORIDO COPIADO DO BOOTSTRAP BRASIL-->
+						<a button type="button" class="btn btn-success" href="#">Veja mais... </a> </button> </a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-md-3">
+				<div class="card borda ZOOM">
+					<img class="card-img-top" alt="Bootstrap Thumbnail Third" src="IMAGENS/hotroll.jpg">
+					<div class="card-block">
+						<h5 class="card-title">
+							HOT ROLL
+						</h5>
+						<p class="card-text">
+							Hot Roll crocante por fora, recheado com ingredientes frescos e irresistíveis, perfeito para quem ama sushi com um toque especial
+						</p>
+						<p class="card-text" style="text-align: center;font-size: 1.8em;font-weight:bolder">
+							R$ 86,00
+						</p>
+						<!--BOTÃO COLORIDO COPIADO DO BOOTSTRAP BRASIL-->
+						<a button type="button" class="btn btn-success" href="#">Veja mais... </a> </button> </a>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+				
+	</div>
+
+	
+</div>
+
+<br><br><br>
+<!-- segundo bloco de imagens -->
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="row">
+			<div class="col-md-3"> 
+				<div class="card  borda ZOOM">  <!--criei uma classe chamada borda para arredondar as bordas do thumb-->
+					
+					<img class="card-img-top" alt="Bootstrap Thumbnail First" src="IMAGENS/agemono.jfif">
+
+					<div class="card-block">
+						<h5 class="card-title">
+							AGEMONO
+						</h5>
+						<p class="card-text">
+							Agemono: a perfeita combinação de crocância e sabor. Uma explosão de texturas e aromas na culinária japonesa.
+							
+						</p>
+
+						<p class="card-text" style="text-align: center;font-size: 1.8em;font-weight:bolder">
+							R$ 95,00
+						</p>
+						<!--BOTÃO COLORIDO COPIADO DO BOOTSTRAP BRASIL-->
+						<a button type="button" class="btn btn-success" href="#">Veja mais... </a> </button> </a>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card borda ZOOM">
+					<img class="card-img-top" alt="Bootstrap Thumbnail Second" src="IMAGENS/YAKIMONO.jfif">
+					<div class="card-block">
+						<h5 class="card-title">
+							YAKIMONO
+						</h5>
+						<p class="card-text">
+							Pratos grelhados que capturam a essência da culinária japonesa. Sabor único e defumado em cada pedaço
+						</p>
+						<p class="card-text" style="text-align: center;font-size: 1.8em;font-weight:bolder">
+							R$ 69,00
+						</p>
+						<!--BOTÃO COLORIDO COPIADO DO BOOTSTRAP BRASIL-->
+						<a button type="button" class="btn btn-success" href="#">Veja mais... </a> </button> </a>
+					</div>
+				</div>
+
+				
+			</div>
+			<div class="col-md-3">
+				<div class="card borda ZOOM">
+					<img class="card-img-top" alt="Bootstrap Thumbnail Third" src="IMAGENS/sashimi.jfif">
+					<div class="card-block">
+						<h5 class="card-title">
+							SASHIMI
+						</h5>
+						<p class="card-text">
+							Sashimi fresco e delicado, cortado com perfeição para realçar o sabor puro dos peixes mais nobres da região
+						</p>
+						<p class="card-text" style="text-align: center;font-size: 1.8em;font-weight:bolder">
+							R$ 88,00
+						</p>
+						<!--BOTÃO COLORIDO COPIADO DO BOOTSTRAP BRASIL-->
+						<a button type="button" class="btn btn-success" href="#">Veja mais... </a> </button> </a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-md-3">
+				<div class="card borda ZOOM">
+					<img class="card-img-top" alt="Bootstrap Thumbnail Third" src="IMAGENS/hotroll.jpg">
+					<div class="card-block">
+						<h5 class="card-title">
+							HOT ROLL
+						</h5>
+						<p class="card-text">
+							Hot Roll crocante por fora, recheado com ingredientes frescos e irresistíveis, perfeito para quem ama sushi com um toque especial
+						</p>
+						<p class="card-text" style="text-align: center;font-size: 1.8em;font-weight:bolder">
+							R$ 65,00
+						</p>
+						<!--BOTÃO COLORIDO COPIADO DO BOOTSTRAP BRASIL-->
+						<a button type="button" class="btn btn-success" href="#">Veja mais... </a> </button> </a>
+					</div>
+				</div>
+			</div>
+
+	
+		</div>
+				
+	</div>
+
+	
+</div>
+
+<br><br><br>
+<!-- proximo bloco de imagens -->
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="row">
+			<div class="col-md-3"> 
+				<div class="card  borda ZOOM">  <!--criei uma classe chamada borda para arredondar as bordas do thumb-->
+					
+					<img class="card-img-top" alt="Bootstrap Thumbnail First" src="IMAGENS/temaki.jfif">
+
+					<div class="card-block">
+						<h5 class="card-title">
+							TEMAKI
+						</h5>
+						<p class="card-text">
+							Recheado com arroz, peixes, frutos do mar e outros ingredientes frescos, ideal para quem busca sabor e praticidade.
+							
+						</p>
+
+						<p class="card-text" style="text-align: center;font-size: 1.8em;font-weight:bolder">
+							R$ 87,00
+						</p>
+
+						<!--BOTÃO COLORIDO COPIADO DO BOOTSTRAP BRASIL-->
+						<a button type="button" class="btn btn-success" href="#">Veja mais... </a> </button> </a>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card borda ZOOM">
+					<img class="card-img-top" alt="Bootstrap Thumbnail Second" src="IMAGENS/sushi.jpg">
+					<div class="card-block">
+						<h5 class="card-title">
+							SUSHI
+						</h5>
+						<p class="card-text">
+							Delicioso sushi artesanal, preparado com ingredientes frescos e de alta qualidade, para uma experiência gastronômica única.
+						</p>
+						<p class="card-text" style="text-align: center;font-size: 1.8em;font-weight:bolder">
+							R$ 59,00
+						</p>
+						<!--BOTÃO COLORIDO COPIADO DO BOOTSTRAP BRASIL-->
+						<a button type="button" class="btn btn-success" href="#">Veja mais... </a> </button> </a>
+					</div>
+				</div>
+
+				
+			</div>
+			<div class="col-md-3">
+				<div class="card borda ZOOM">
+					<img class="card-img-top" alt="Bootstrap Thumbnail Third" src="IMAGENS/sashimi.jfif">
+					<div class="card-block">
+						<h5 class="card-title">
+							SASHIMI
+						</h5>
+						<p class="card-text">
+							Sashimi fresco e delicado, cortado com perfeição para realçar o sabor puro dos peixes mais nobres da região
+						</p>
+						<p class="card-text" style="text-align: center;font-size: 1.8em;font-weight:bolder">
+							R$ 77,00
+						</p>
+						<!--BOTÃO COLORIDO COPIADO DO BOOTSTRAP BRASIL-->
+						<a button type="button" class="btn btn-success" href="#">Veja mais... </a> </button> </a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-md-3">
+				<div class="card borda ZOOM">
+					<img class="card-img-top" alt="Bootstrap Thumbnail Third" src="IMAGENS/hotroll.jpg">
+					<div class="card-block">
+						<h5 class="card-title">
+							HOT ROLL
+						</h5>
+						<p class="card-text">
+							Hot Roll crocante por fora, recheado com ingredientes frescos e irresistíveis, perfeito para quem ama sushi com um toque especial
+						</p>
+
+						<p class="card-text" style="text-align: center;font-size: 1.8em;font-weight:bolder">
+							R$ 79,30
+						</p>
+						<!--BOTÃO COLORIDO COPIADO DO BOOTSTRAP BRASIL-->
+						<a button type="button" class="btn btn-success" href="#">Veja mais... </a> </button> </a>
+						
+					</div>
+				</div>
+			</div>
+
+			
+
+
+
+
+
+
+		</div>
+				
+	</div>
+
+	
+</div>
+
+
+
+
+
+<!-- RODAPÉ -->
+
+<div class="row tamanhoRodape">
+	<div class="col-md-12 caixaRodape">
+		<p>
+			TODOS O DIREITOS RESERVADOS | 2024
+		</p>
+	</div>
+</div>
+</div>
+
+<!--PAGINA TERMINA AQUI-->
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
